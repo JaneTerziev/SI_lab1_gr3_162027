@@ -12,3 +12,5 @@ To create a new branch, git branch *branchname* was used, then git checkout *bra
 
 At the end, git checkout master, git rebase *branchname* was used.
 We could use merge instead of rebase but that would leave an extra commit message on the branch.
+
+There were no conflicts for the merge because the branch was up to date with master because we created the branch through master.
